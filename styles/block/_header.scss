@@ -1,0 +1,22 @@
+.b-navegator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+
+  &__options {
+    display: flex;
+    padding-right: 24px;
+
+    img {
+      width: 100px;
+      
+    }
+  }
+
+  &__icon {
+    img {
+      width: 16px;
+    }
+  }
+}

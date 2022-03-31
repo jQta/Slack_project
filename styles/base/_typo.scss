@@ -1,0 +1,114 @@
+// INITIAL REBOOT
+
+html,
+body {
+  margin: 0 !important;
+}
+
+// GLOBAL BODY
+
+@font-face {
+  font-family: "NotoSans";
+  src: url("../../assets/fonts/NotoSans-Regular.ttf");
+}
+
+// TYPOGRAPHY
+
+body {
+  background-color: $backgroundbody;
+
+  font-family: NotoSans;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  padding: 14px 0px;
+  font-weight: bold;
+  font-size: 19px;
+}
+
+h4 {
+  color: $backgroundgrey;
+  padding: 8px 0px;
+}
+
+li {
+  padding: 8px 0px;
+  font-size: 13px;
+}
+
+p {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+span {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.b-bold {
+  font-weight: bold;
+}
+
+.b-blue {
+  color: $colorblue;
+}
+
+.b-small {
+  font-size: 11px;
+  font-weight: lighter;
+}
+
+.b-skeleton {
+  padding: 0px 32px;
+}
+
+.btn {
+  padding: 16px 0px;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 6px;
+  border: 0px;
+
+  &--purple {
+    background-color: $backgroundpurple;
+    color: $backgroundwhite;
+  }
+  &--blue {
+    background-color: $backgroundblue;
+    color: $backgroundwhite;
+  }
+
+  &--white {
+    background-color: $backgroundwhite;
+    color: $backgroundpurple;
+  }
+
+  &--purpleb {
+    background-color: $backgroundpurple;
+    color: $backgroundwhite;
+    border: 1px solid $backgroundwhite;
+  }
+}
+
+.arrow::after {
+  content: " →";
+}
+
+.global::before {
+  content: "🌐 ";
+}
+
+.download:before {
+  content: "☁️ ";
+}

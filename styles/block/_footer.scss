@@ -1,0 +1,64 @@
+.b-white {
+  background-color: $backgroundwhite;
+
+  &__logo {
+    width: 128px;
+  }
+}
+
+.b-curve {
+  position: relative;
+  height: 100px;
+  background-color: $backgroundpurple;
+  border-radius: 100%;
+  bottom: 50px;
+}
+
+.b-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: $backgroundpurple;
+  height: 400px;
+  padding: 0px 32px;
+
+  &__title {
+    color: $colorwhite;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 48px 0px;
+  }
+
+  &__separate {
+    padding: 8px 0px;
+  }
+}
+
+.b-foot {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__box {
+    padding-right: 8px;
+    width: 32%;
+  }
+}
+
+.b-border {
+  border-bottom: solid 2px $backgroundgrey;
+  opacity: 0.1;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 24px;
+}
+
+.b-media {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0px;
+
+  &__icon {
+    width: 18px;
+  }
+}

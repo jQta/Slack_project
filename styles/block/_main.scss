@@ -1,0 +1,144 @@
+.b-hero {
+  display: flex;
+  flex-direction: column;
+
+  &__block {
+    padding: 8px 0px;
+
+    &--text {
+      font-size: 15px;
+      align-items: center;
+    }
+
+    &--icon {
+      width: 16px;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.b-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+
+  &__pic {
+    display: flex;
+    max-width: 140px;
+    margin: 4px;
+
+    &--s {
+      width: 32px;
+    }
+
+    &--m {
+      width: 78px;
+    }
+
+    &--l {
+      width: 100px;
+    }
+
+    &--xl {
+      width: 160px;
+    }
+  }
+}
+
+.b-area {
+  background-color: $backgroundwhite;
+}
+
+.b-pools {
+  display: flex;
+  flex-direction: column;
+
+  &__block {
+    padding-top: 8px;
+    padding-bottom: 24px;
+
+    &--top {
+      padding-top: 48px;
+      font-size: 24px;
+    }
+
+    &--blue {
+      color: $colorblue;
+    }
+  }
+
+  &__foot {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+  }
+}
+
+.b-register {
+  padding-top: 32px;
+
+  &__title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 32px;
+  }
+
+  &__btn {
+    background-color: $backgroundpurple;
+    color: $colorwhite;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 16px;
+  }
+
+  &__body {
+    padding-top: 8px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: normal;
+
+    &--blue {
+      color: $colorblue;
+      text-decoration: underline;
+    }
+  }
+}
+
+.b-exhibitor {
+  display: flex;
+  flex-direction: column;
+  background-color: $backgroundwhite;
+  padding: 8px;
+  margin-left: 25%;
+  width: 50%;
+
+  &__pos {
+    margin-top: 32px;
+    color: $colorblue;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+
+.b-display {
+  display: flex;
+  justify-content: space-around;
+  padding: 32px;
+
+  &__circle {
+    background: $backgroundgrey;
+    border-radius: 50px;
+
+    &--point {
+      background: $backgroundpurple;
+    }
+  }
+}
